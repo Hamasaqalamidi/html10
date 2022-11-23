@@ -1,0 +1,21 @@
+@media (max-width:1047px){
+    .right-box{
+        justify-content: space-around;
+    }
+}
+@media(max-width:660px){
+    .block{
+        width: 80%;
+    }
+    .right-box{
+        justify-content: center;
+    }
+    .left-box{
+        margin-bottom: 30px;
+
+    }
+    .box-wrapper{
+        flex-wrap: wrap;
+    }
+}
+

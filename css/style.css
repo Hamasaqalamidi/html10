@@ -1,0 +1,47 @@
+/* base classes */
+.flex{
+    display: flex;
+}
+/* header */
+.header{
+    padding: 25px;
+}
+.container{
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* header */
+.header-wrapper{
+    justify-content: space-between;
+}
+.nav-li{
+    margin-right: 49px;
+}
+.nav-li:last-child{
+    margin-right: 0;
+}
+.icon{
+    margin-left: 30px;
+    display: none;
+}
+.section1{
+    margin-top: 75px ;
+}
+.box-wrapper{
+    justify-content: space-between;
+}
+.left-box{
+    max-width: 241px;
+    width: 100%;
+}
+.right-box{
+    max-width: 870px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block{
+    max-width: 269px;
+    width: 38%;
+}
